@@ -4,7 +4,10 @@ type Color = 'black' | 'white'
 
 export abstract class Piece {
     protected position: Position
-    constructor(private color: Color, position: Position) {
+    constructor(
+        private readonly color: Color,
+        position: Position
+    ) {
         this.position = position
     }
 
