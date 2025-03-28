@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "experimentalDecorators": true,
+        "outDir": "compiled",
+        "strict": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+}

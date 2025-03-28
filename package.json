@@ -1,0 +1,16 @@
+{
+  "name": "ts-chess-engine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:afonyaa/ts-chess-engine.git",
+  "author": "evgeny <afazhenya2001@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
